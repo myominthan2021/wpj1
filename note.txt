@@ -1,0 +1,53 @@
+# django install
+pip install django
+
+# check django version
+python -m django --version
+
+# starting project
+django-admin startproject ေပးခ်င္တဲ့ P name
+django-admin startproject wpj1
+
+# cd into projcet name
+cd wpj1
+
+# show files and folder
+dir or ls
+
+# ready or not! server run
+python manage.py runserver
+
+# server stop
+Ctrl+C
+
+# create application
+python manage.py startapp ေပးခ်င္တဲ့ appname
+python manage.py startapp record
+
+-> Module (django)
+    -> PJ (wpj1)
+        -> APP (record)
+            -> Medal (modals.py)
+- module
+    - pj ( Facebook )
+        - app (post) (mesenger) (ig)
+            - modal
+-> File and Folder Expression
+-> wpj1 (pj)
+    -> record (APP)
+        ->admin.py
+        ->modal.py
+        ->
+    -> wpj1 (pj settin folder)
+        -> settings.py
+    -> db.sqlite3
+    -> manage.py (server)
+
+# register app in pj settings install app
+
+# set up database file in django
+python manage.py migrate
+
+# create module
+class Record ( models.Model):
+    title
